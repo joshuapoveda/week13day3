@@ -24,7 +24,7 @@ function App() {
       </div>
       <div className="employee-page">
       <Routes>
-            {employees.map((i, index) => (
+            {employees.map((item, index) => (
               <Route
                 key={index}
                 path={`/${index}`}
