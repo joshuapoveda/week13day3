@@ -1,0 +1,39 @@
+body {
+  background-color: white;
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  border: solid 2px black;
+}
+
+.header {
+  border: solid 2px lightblue;
+}
+
+.search-bar{
+  border: solid 2px green;
+}
+
+input{
+  width: 90%;
+}
+
+.homepage {
+  border: solid 2px yellow;
+  width: 50%;
+}
+.employee-page {
+  border: solid 2px brown;
+  width: 50%;
+}
+
+.employee-list {
+  border: solid 2px purple;
+  height: 100vh;
+}
+
+.list-items{
+  border: solid 2px red;
+}
